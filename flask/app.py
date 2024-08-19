@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configure the Gemini API
-genai.configure(api_key=os.getenv("AIzaSyCi0mbXfp0uEBZpK7n-YnqR9tXT0tyXSM0"))
+genai.configure(api_key=os.getenv("API key google"))
 
 # Initialize Gemini model
 model = genai.GenerativeModel('gemini-1.5-flash')
